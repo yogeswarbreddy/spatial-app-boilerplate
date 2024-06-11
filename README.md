@@ -1,65 +1,70 @@
-# Fabrik Spatial App
+# Getting Started with Create React App
 
-The boilerplate is almost the absolute minimum that you need to get React Three Fiber to display a Three.js scene. We will make many additions to the boilerplate as we progress with the lessons.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Create a project folder 
+## Available Scripts
 
-Open a command/terminal prompt and create a new folder on your system somewhere.
+In the project directory, you can run:
 
-```mkdir react-three-fiber-boilerplate ```
+### `npm start`
 
-# CD into the new folder
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-```cd react-three-fiber-boilerplate```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-# Clone the repository 
-```git clone https://github.com/fabrik-space/spatial-app-boilerplate.git```
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-# Setup development environment 
-# VSCode 
+### `npm run build`
 
-To begin, we should ensure that we've set up an IDE (Integrated Development Environment) to develop with.
-If you don't have VSCode already installed, then you can install it from - [VScode](https://code.visualstudio.com.) 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-# NodeJS
-We also need Node.js, which includes NPM, since we will be using the npm and npx commands.
-To check if Node.js is already installed, open a cmd/terminal/shell prompt and type,
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```node -v```
-You should get a response indicating a version number
-For example 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```v18.14.0```
-Your version should be equal to or higher than v18.0.0.
+### `npm run eject`
 
-We can also check the version of NPM,
-```npm -v```
-You want to see no error, but instead a version number equal to, or higher than v8.0.0.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-# Run the app
-Once you have setup the devlopemnt environment, Open the project on VSCode. Make sure you are under the project folder if not ```cd spatial-app-boilerplate```, 
-Now open a new terminal within VScode and install all dependencies using
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-```npm install```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-To run the application with local devlopement server
-```npm run dev```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-<img width="1429" alt="Screenshot 2024-05-16 at 12 08 53 PM" src="https://github.com/fabrik-space/spatial-app-boilerplate/assets/67771257/1a977f72-8ceb-4c37-aa75-c7e2574aee16">
+## Learn More
 
-You should be able to see a red color cube on canvas, you can interact and get started with it
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Within you're terminal you should see 
-```spatial-app-boilerplate git:(main)```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Which means you're under the main branch of the project,
-Checkout from the current main branch to a new branch where you can start making changes 
-```git checkout -b "your-branch-name"```
+### Code Splitting
 
-Based on the module you start, Replace "your-branch-name" with a preffered branch name and associated task for example :
-```git checkout -b "module-1/upload-model"```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Once done with changes you can raise a pull request against the main branch and request review
+### Analyzing the Bundle Size
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
